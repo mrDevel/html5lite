@@ -1,0 +1,22 @@
+{
+  "name": "html5lite",
+  "authors": [
+    "Pavel Kozhevov <kozhevov@mail.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "^5.0.0",
+    "font-awesome": "^4.7.0"
+  }
+}

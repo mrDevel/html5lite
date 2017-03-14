@@ -1,0 +1,32 @@
+{
+  "name": "html5lite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrDevel/html5lite.git"
+  },
+  "keywords": [
+    "html",
+    "html5",
+    "lite",
+    "start"
+  ],
+  "author": "mrDevel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdevel/html5lite/issues"
+  },
+  "homepage": "https://github.com/mrdevel/html5lite#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "node-bourbon": "^4.2.8"
+  }
+}
