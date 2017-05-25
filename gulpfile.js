@@ -1,6 +1,21 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    bs = require('browser-sync');
+    bs = require('browser-sync'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglifyjs');
+
+
+var libsJs = [
+    'app/libs/jquery/dist/jquery.min.js'
+];
+
+
+gulp.task('scripts', function () {
+    return gulp.src(libsJs)
+        .pipe(concat('libs.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('app/js'));
+});
 
 gulp.task('sass', function () {
     return gulp.src('app/sass/**/*.sass')
