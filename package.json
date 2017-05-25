@@ -27,6 +27,8 @@
     "browser-sync": "^2.18.7",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "node-bourbon": "^4.2.8"
+    "node-bourbon": "^4.2.8",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifyjs": "^0.6.2"
   }
 }
