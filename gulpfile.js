@@ -3,6 +3,7 @@
 
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const csso = require('gulp-csso');
 const bs = require('browser-sync');
 const notify = require('gulp-notify');
 const rename = require('gulp-rename');
@@ -23,6 +24,7 @@ gulp.task('sass', function () {
         .pipe(sass({outputStyle: 'compressed'}))
         .on('error', notify.onError())
         .pipe(rename({suffix: '.min'}))
+        .pipe(csso())
         .pipe(gulp.dest('app/css'))
         .pipe(bs.reload({stream: true}))
 });
