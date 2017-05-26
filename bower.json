@@ -16,8 +16,6 @@
     "tests"
   ],
   "devDependencies": {
-    "normalize-css": "^5.0.0",
-    "font-awesome": "^4.7.0",
     "jquery": "^3.1.1",
     "bourbon": "^4.3.3"
   }
