@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/**
+ * Список доступных шрифтов.
+ * Для подключения шрифта разкомментируйте понравившийся шрифт
+ */
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2402,150 +2407,6 @@
   font-style: italic;
   font-weight: 900;
   src: url("../fonts/Roboto/Robotoblackitalic.woff2") format("woff2"), url("../fonts/Roboto/Robotoblackitalic.woff") format("woff"), url("../fonts/Roboto/Robotoblackitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 100;
-  src: url("../fonts/ExoTwo/exo2thin.woff2") format("woff2"), url("../fonts/ExoTwo/exo2thin.woff") format("woff"), url("../fonts/ExoTwo/exo2thin.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 100;
-  src: url("../fonts/ExoTwo/exo2thinitalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2thinitalic.woff") format("woff"), url("../fonts/ExoTwo/exo2thinitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 200;
-  src: url("../fonts/ExoTwo/exo2extralight.woff2") format("woff2"), url("../fonts/ExoTwo/exo2extralight.woff") format("woff"), url("../fonts/ExoTwo/exo2extralight.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 200;
-  src: url("../fonts/ExoTwo/exo2extralightitalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2extralightitalic.woff") format("woff"), url("../fonts/ExoTwo/exo2extralightitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/ExoTwo/exo2light.woff2") format("woff2"), url("../fonts/ExoTwo/exo2light.woff") format("woff"), url("../fonts/ExoTwo/exo2light.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/ExoTwo/exo2lightitalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2lightitalic.woff") format("woff"), url("../fonts/ExoTwo/exo2lightitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/ExoTwo/exo2.woff2") format("woff2"), url("../fonts/ExoTwo/exo2.woff") format("woff"), url("../fonts/ExoTwo/exo2.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/ExoTwo/exo2italic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2italic.woff") format("woff"), url("../fonts/ExoTwo/exo2italic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/ExoTwo/exo2medium.woff2") format("woff2"), url("../fonts/ExoTwo/exo2medium.woff") format("woff"), url("../fonts/ExoTwo/exo2medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 500;
-  src: url("../fonts/ExoTwo/exo2mediumitalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2mediumitalic.woff") format("woff"), url("../fonts/ExoTwo/exo2mediumitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/ExoTwo/exo2semibold.woff2") format("woff2"), url("../fonts/ExoTwo/exo2semibold.woff") format("woff"), url("../fonts/ExoTwo/exo2semibold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 600;
-  src: url("../fonts/ExoTwo/exo2semibolditalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2semibolditalic.woff") format("woff"), url("../fonts/ExoTwo/exo2semibolditalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/ExoTwo/exo2bold.woff2") format("woff2"), url("../fonts/ExoTwo/exo2bold.woff") format("woff"), url("../fonts/ExoTwo/exo2bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/ExoTwo/exo2bolditalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2bolditalic.woff") format("woff"), url("../fonts/ExoTwo/exo2bolditalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/ExoTwo/exo2extrabold.woff2") format("woff2"), url("../fonts/ExoTwo/exo2extrabold.woff") format("woff"), url("../fonts/ExoTwo/exo2extrabold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 800;
-  src: url("../fonts/ExoTwo/exo2extrabolditalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2extrabolditalic.woff") format("woff"), url("../fonts/ExoTwo/exo2extrabolditalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/ExoTwo/exo2black.woff2") format("woff2"), url("../fonts/ExoTwo/exo2black.woff") format("woff"), url("../fonts/ExoTwo/exo2black.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Exo 2";
-  font-style: italic;
-  font-weight: 900;
-  src: url("../fonts/ExoTwo/exo2blackitalic.woff2") format("woff2"), url("../fonts/ExoTwo/exo2blackitalic.woff") format("woff"), url("../fonts/ExoTwo/exo2blackitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/RobotoCondensed/Robotocondensedlight.woff2") format("woff2"), url("../fonts/RobotoCondensed/Robotocondensedlight.woff") format("woff"), url("../fonts/RobotoCondensed/Robotocondensedlight.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/RobotoCondensed/Robotocondensedlightitalic.woff2") format("woff2"), url("../fonts/RobotoCondensed/Robotocondensedlightitalic.woff") format("woff"), url("../fonts/RobotoCondensed/Robotocondensedlightitalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/RobotoCondensed/Robotocondensed.woff2") format("woff2"), url("../fonts/RobotoCondensed/Robotocondensed.woff") format("woff"), url("../fonts/RobotoCondensed/Robotocondensed.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/RobotoCondensed/Robotocondenseditalic.woff2") format("woff2"), url("../fonts/RobotoCondensed/Robotocondenseditalic.woff") format("woff"), url("../fonts/RobotoCondensed/Robotocondenseditalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/RobotoCondensed/Robotocondensedbold.woff2") format("woff2"), url("../fonts/RobotoCondensed/Robotocondensedbold.woff") format("woff"), url("../fonts/RobotoCondensed/Robotocondensedbold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/RobotoCondensed/Robotocondensedbolditalic.woff2") format("woff2"), url("../fonts/RobotoCondensed/Robotocondensedbolditalic.woff") format("woff"), url("../fonts/RobotoCondensed/Robotocondensedbolditalic.ttf") format("truetype"); }
 
 html {
   font-family: sans-serif;
